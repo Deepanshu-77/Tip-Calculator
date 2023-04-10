@@ -1,0 +1,131 @@
+section {
+   height: 100vh;
+   width: 100vw;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.calc {
+   width: 400px;
+   background-color: #004249;
+   border-radius: 5px;
+   padding: 1px;
+}
+
+body {
+   background-color: #644E3D;
+}
+
+h2 {
+   font-size: 40px;
+   background-color: #008C85;
+   color: white;
+   text-align: center;
+   padding: 10px;
+   border-radius: 4px;
+
+
+}
+
+form,
+form>* {
+   width: 90%;
+   margin: 0 auto;
+   text-align: center;
+   padding: 10px 0;
+   font-size: 16px;
+   border-bottom: 2px solid;
+   border-color: pink;
+
+}
+
+input,
+select {
+   font-size: 16px;
+   padding: 7px;
+   text-align: center;
+   border-radius: 5px;
+}
+
+.btn {
+   
+   
+   margin: 5px 0;
+   border-radius: 5px;
+   background-color: #00C8B5;
+   color: white;
+   border: none;
+   cursor: pointer;
+   transition: all .3s;
+   padding: 10px;
+}
+
+.btn:hover {
+   background-color: #00524A;
+   color: white;
+   font-weight: 700;
+}
+
+.error {
+   color: red;
+   display: none;
+}
+
+.rate {
+   padding: 10px;
+   margin: 20px;
+}
+
+.ratetext{
+   font-size: 20px;
+   display: flex;
+   justify-content: center;
+   padding: 10px;
+   width: 10vw;
+   background-color: #5D4C88;
+   color: white;
+   border: none;
+   border-radius: 10px;
+ }
+
+
+.billtext{
+   font-size: 20px;
+   display: flex;
+  justify-content: center;
+  width: 5vw;
+  background-color: #5D4C88;
+  color: white;
+  border: none;
+  border-radius: 10px ;
+} 
+
+
+.bill{
+   margin: 10px;
+}
+.result{
+   width: 90%;
+   margin: 0 auto;
+   padding: 10px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.result > *{
+    background-color: #B0D5FF;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.total{
+   color: #250600;
+   border-radius: 5px;
+}
